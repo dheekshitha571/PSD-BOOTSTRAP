@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)http://veckavali.ac.in/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <!--[if lt IE 9]>
+       <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script>
+    <![endif]-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+    
+    
+        <link rel="stylesheet" href="./dir2_files/bootstrap.css">
+        <link href="./dir2_files/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./dir2_files/site.css">
+        <link rel="stylesheet" href="./dir2_files/layout.css">
+        
+    <link rel="stylesheet" href="./dir2_files/about.css">
+
+
+    
+</head>
+<body>
+    <div id="page-container">
+        <header>
+            <section id="site-banner" class="hidden" style="">
+                <div class="row">
+                    <div class="col-xs-3 section-banner__image-section">
+                        <a id="home" href="http://veckavali.ac.in/Home"><img class="img-responsive pull-left" src="./dir2_files/clg_banner_logo.png" alt="VTA"></a>
+                    </div>
+                    <div class="col-xs-6 section-banner__image-section">
+                        <img class="img-responsive center-block" src="./dir2_files/clg_banner_title.png" alt="VTA">
+                    </div>
+                    <div class="col-xs-3 section-banner__image-section">
+                        <img class="img-responsive pull-right" src="./dir2_files/clg_banner_founder.png" alt="VTA">
+                    </div>
+                </div>
+            </section>
+            <nav id="navigation-bar" class="navbar navbar-default navbar-fixed-top navigationBarAfterScroll" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header navigation-bar__header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <div id="navigation-bar__header--icon-bars">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </div>
+                            <span>Menu</span>
+                        </button>
+                    </div>
+                    <div id="navigation-bar__inner-nav" class="navbar-collapse collapse">
+                        <div id="navigation-bar__mini-side-nav" class="text-center">
+                            <a id="mini-side-nav__home" href="http://veckavali.ac.in/Home"><span class="glyphicon glyphicon-home"></span><span class="mini-side-nav--text"> Home</span></a>
+                            <a id="mini-side-nav__login" href="http://veckavali.ac.in/#"><span class="glyphicon glyphicon-user"></span><span class="mini-side-nav--text"> Login</span></a>
+                        </div>
+                        <ul class="nav nav-pills nav-justified">
+                            <li><a id="about" href="http://veckavali.ac.in/" class="active" style="background-color: inherit; opacity: 1;">About</a></li>
+                            <li><a id="academics" href="http://veckavali.ac.in/Academics" style="background-color: inherit; opacity: 1;">Academics</a></li>
+                            <li><a id="campusLife" href="http://veckavali.ac.in/CampusLife" style="background-color: inherit; opacity: 1;">Campus Life</a></li>
+                            <li><a id="research" href="http://veckavali.ac.in/Research" style="background-color: inherit; opacity: 1;">Research</a></li>
+                            <li><a id="placements" href="http://veckavali.ac.in/Placements" style="background-color: inherit; opacity: 1;">Placements</a></li>
+                            <li><a id="admissions" href="http://veckavali.ac.in/Admissions" style="background-color: inherit; opacity: 1;">Admissions</a></li>
+                            <li><a id="accreditation" href="http://veckavali.ac.in/Accreditation/NAAC" style="background-color: inherit; opacity: 1;">Accreditation</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div id="main-body" class="container-fluid">
+            
+
+
+<div id="parallax-bg" class="home">
+    <div class="parallax-bg__content">
+        <h1 class=" h1 parallax-bg__content--text">VEC</h1>
+    </div>
+</div>
+
+<div id="caption-about-college">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 class="h1 text-center"> About VEC</h1>
+                <h3 class="caption text-center"> A place for learning, discovery, innovation, expression and development</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="about-image-slider">
+    <div class="container-fluid">
+        <div class="row">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="./dir2_files/1.jpg" alt="Cotton Block" class="img-responsive">
+                    </div>
+                    <div class="item">
+                        <img src="./dir2_files/2.jpg" alt="MRR Block" class="img-responsive">
+                    </div>
+                    <div class="item">
+                        <img src="./dir2_files/3.jpg" alt="Campus" class="img-responsive">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Team -->
+<section id="team" class="pb-5">
+    <div class="container">
+        <h5 class="section-title h1">Leadership Team</h5>
+        <div class="row">
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6">
+                <div class="image-flip">
+                    <div class="mainflip flip-0">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="./dir2_files/director.jpg" alt="card image"></p>
+                                    <h4 class="card-title">Wg. Cdr. I.P.C. Reddy</h4>
+                                    <p class="card-text">Director</p>
+                                    <a href="http://veckavali.ac.in/" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">Wg. Cdr. I.P.C. Reddy</h4>
+                                    <p class="card-text">
+                                        Wg. Cdr. I.P.C. Reddy is the driving force behind the institution's disciplined academic progress. A gold medalist in Engineering, he rendered distinguished service in the technical branch of Indian Air Force for 22 years.
+                                        With his abundant knowledge and wide experience, he is actively taking the technical institution forward in its path towards excellence. He firmly believes that <strong>Discipline is a paramount prerequisite to reach any chosen goal in life</strong>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+            <!-- Team member -->
+            <div class="col-xs-12 col-sm-6">
+                <div class="image-flip" ontouchstart="this.classList.toggle(&#39;hover&#39;);">
+                    <div class="mainflip">
+                        <div class="frontside">
+                            <div class="card">
+                                <div class="card-body text-center">
+                                    <p><img class=" img-fluid" src="./dir2_files/chairman.jpg" alt="card image"></p>
+                                    <h4 class="card-title">D. Vidyadhar Kumar Reddy</h4>
+                                    <p class="card-text">Chairman</p>
+                                    <a href="http://veckavali.ac.in/" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="backside">
+                            <div class="card">
+                                <div class="card-body text-center mt-4">
+                                    <h4 class="card-title">D. Vidyadhar Kumar Reddy</h4>
+                                    <p class="card-text">
+                                        D.Vidyadhar Kumar Reddy, the chairman of the institution, has inherited the profound legacy of his father, Late. Dr.D.Ramachandra Reddy, the founder and a well-known philanthropist. Carrying his father's noble ideals in his heart, Mr. D.V.K. Reddy has emerged as a dynamic leader and an able administrator. Under his dynamic and focused stewardship, the institution is making great strides in the field of technical education. He is deeply convinced that value-added education is the pressing need of the present time and is committed to produce graduates, instilled with a sense of moral responsibility towards the society.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Team member -->
+        </div>
+    </div>
+</section>
+<!-- Team -->
+
+<div id="about-college">
+    <div class="container">
+        <div class="row">
+            <p class="well well-lg text-content text-para">
+                VISVODAYA ENGINEERING COLLEGE was established in 2008 under Visvodaya Society with an intake of 300 students with the branches Electronics and Communication, Computer Science and Engineering , Electrical &amp; Electronics Engineering , Civil Engineering and later PG courses, M.Tech in 4 specializations, MBA were started, reached to with an intake of 852 at present The total strength is 3224. This institution has permanent affiliation from Jawaharlal Nehru Technological University, Ananthapur. UGC has recognized with 2(f) in the year 2015. We have faculty of 126 members in all subjects together out of which 16 professors, 5 associate professors and 105 assistant professors.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="pillCards" class="hidden-xs">
+    <div class="card-left">
+        <div class="card-image">
+            <img src="./dir2_files/book.jpg">
+        </div>
+        <div class="card-text">
+            <p>
+                Qualified &amp; Dedicated faculty
+            </p>
+        </div>
+    </div>
+    <div class="card-right">
+        <div class="card-image">
+            <img src="./dir2_files/cgc.jpg">
+        </div>
+        <div class="card-text">
+            <p>
+                Access to 40000+ digital and paperback volumes
+            </p>
+        </div>
+    </div>
+    <div class="card-left">
+        <div class="card-image">
+            <img src="./dir2_files/lab.jpg">
+        </div>
+        <div class="card-text">
+            <p>
+                E-classrooms &amp; Laboratories with updated Technology
+            </p>
+        </div>
+    </div>
+    <div class="card-right">
+        <div class="card-image">
+            <img src="./dir2_files/soap-bubble.jpg">
+        </div>
+        <div class="card-text">
+            <p>
+                Campus Housing
+            </p>
+        </div>
+    </div>
+    <div class="card-bottom">
+        <div class="card-image">
+            <img class="img-fluid" src="./dir2_files/tech2.jpg">
+        </div>
+        <div class="card-text">
+            <p>
+                R &amp; D centre
+            </p>
+        </div>
+    </div>
+    <div class="card-bottom">
+        <div class="card-image">
+            <img src="./dir2_files/tech1.jpg">
+        </div>
+        <div class="card-text">
+            <p>
+                Industry-Institute Interactive activities
+            </p>
+        </div>
+    </div>
+
+    <div class="card-right">
+        <div class="card-image">
+            <img src="./dir2_files/lab2.jpg">
+        </div>
+        <div class="card-text">
+            <p>
+                Student Forums
+            </p>
+        </div>
+    </div>
+    <div class="card-left">
+        <div class="card-image">
+            <img src="./dir2_files/bus.jpg">
+        </div>
+        <div class="card-text">
+            <p>
+                Transport facility within radius of 60km
+            </p>
+        </div>
+    </div>
+    <div class="card-bottom">
+        <div class="card-image">
+            <img src="./dir2_files/wifi.jpg">
+        </div>
+        <div class="card-text">
+            <p>
+                Wi-Fi enabled and Lush green Campus
+            </p>
+        </div>
+    </div>
+
+    <div class="card-bottom">
+        <div class="card-image">
+            <img src="./dir2_files/job.jpg">
+        </div>
+        <div class="card-text">
+            <p>
+                In-house training on Technical &amp; Interpersonal skills
+            </p>
+        </div>
+    </div>
+    <div class="card-left">
+        <div class="card-image">
+            <img src="./dir2_files/sport.jpg">
+        </div>
+        <div class="card-text">
+            <p>
+                Sports &amp; Recreation
+            </p>
+        </div>
+    </div>
+
+    <div class="card-right">
+        <div class="card-image">
+            <img src="./dir2_files/carer.jpg">
+        </div>
+        <div class="card-text">
+            <p>
+                Career Guidance Cell
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="video-clip-section">
+    <div class="container">
+        <div class="row">
+            <div id="video-clip-section__intro-video" class="col-sm-12 ">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="./dir2_files/w3qoV1ymNsc.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clearfix"></div>
+
+
+        </div>
+        <footer>
+            <!--Footer Background Logo Image-->
+            <figure>
+                <img class="img-responsive center-block footer-bg" src="./dir2_files/logo.png">
+            </figure>
+            <!--Footer Links-->
+            <section id="footer-content" class="container-fluid">
+                <div class="row">
+                    <!--First column-->
+                    <div class="col-md-3">
+                        <div class="rowBlock">
+                            <div class="row">
+                                <div class="col-xs-1">
+                                    <i class="fas fa-map-marker-alt fa-lg"></i>
+                                </div>
+                                <div class="col-xs-10">
+                                    Udayagiri Road, Kavali<br>
+                                    SPSR Nellore, AP - 524201
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rowBlock">
+                            <div class="row">
+                                <div class="col-xs-1">
+                                    <i class="fas fa-phone-alt fa-lg"></i>
+                                </div>
+                                <div class="col-xs-10">
+                                    +91-08626240066<br>
+                                    +91-8626240056<br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rowBlock">
+                            <div class="row">
+                                <div class="col-xs-1">
+                                    <i class="fas fa-envelope fa-lg"></i>
+                                </div>
+                                <div class="col-xs-10">
+                                    <a href="http://veckavali.ac.in/contactus@visvodayata.ac.in">contactus@visvodayata.ac.in</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rowBlock">
+                            <div class="row">
+                                <i class="socialIcon fab fa-facebook-square fa-3x"></i>
+                                <i class="socialIcon fab fa-twitter-square fa-3x"></i>
+                                <i class="socialIcon fab fa-google-plus-square fa-3x"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Second column-->
+                    <div class="col-md-5">
+                        <div class="col-xs-6 collageLinks collageLinks2">
+                            <ul class="list-unstyled">
+                                <li><a href="http://veckavali.ac.in/Home/RTI">RTI</a></li>
+                                <li><a href="http://veckavali.ac.in/Accreditation/Cells">Cells</a></li>
+                                <li><a href="http://veckavali.ac.in/files/About/MOU.pdf">MOU's</a></li>
+                                <li><a href="http://veckavali.ac.in/Home/GoverningBody">Governing Body</a></li>
+                                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSeJ5OfY6iugXQH261_NMyMqc2a3EFxv7wyZMdRLBSDmq6DPJw/viewform" target="_blank">Register Grevence</a></li>
+                                <li><a href="https://aicte-india.org/feedback/index.php" target="_blank">AICTE Feedback</a></li>
+                                <li><a href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm" target="_blank">Online Payment Fee</a></li>
+                               <!-- <li><a href="~/files/About/PC.pdf">PC,CMM & No Dues</a></li>-->
+                                <li><a href="http://veckavali.ac.in/files/About/code%20of%20conduct.pdf" target="_blank">Code Of Conduct</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-xs-6 collageLinks collageLinks1">
+                            <ul class="list-unstyled text-right">
+                                <li><a href="http://veckavali.ac.in/">About</a></li>
+                                <li><a href="http://veckavali.ac.in/Home/Alumni">Alumni</a></li>
+                                <li><a href="http://veckavali.ac.in/Home/Careers">Careers</a></li>
+                                <li><a href="http://veckavali.ac.in/Home/Contact">Contact US</a></li>
+                                <li><a id="founder" href="http://veckavali.ac.in/About/Founder">Founder</a></li>
+                                <li><a href="http://veckavali.ac.in/files/About/Newsletters.pdf" target="_blank">News Letters</a></li>
+                                <li><a href="http://veckavali.ac.in/About/News">News &amp; Media</a></li>
+                                <li><a href="http://veckavali.ac.in/About/OnlineClasses">Online Classes</a></li>
+                                <li><a href="http://veckavali.ac.in/Home/AffiliationsRecognitions">Affiliations &amp; Recognitions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--Third column-->
+                    <div class="col-md-4">
+                        <div class="iframeMap">
+                            <iframe id="gmap_canvas" height="275" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="./dir2_files/maps.html">
+                            </iframe>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="footer-copyright ">
+                <div class="container-fluid">
+                    <div class="row">
+                        <p class="text-center">© 2022 - VEC</p>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </div>
+
+    
+    
+        <script src="./dir2_files/jquery.js.download"></script>
+        <script src="./dir2_files/bootstrap.js.download"></script>
+        <script src="./dir2_files/jquery.matchHeight-min.js.download"></script>
+        <script src="./dir2_files/TweenMax.min.js.download"></script>
+        <script src="./dir2_files/CSSPlugin.min.js.download"></script>
+        <script src="./dir2_files/site.js.download"></script>
+    
+    
+    <script src="./dir2_files/about.js.download"></script>
+
+
+
+</body></html>

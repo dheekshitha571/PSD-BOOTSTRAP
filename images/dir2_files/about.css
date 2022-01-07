@@ -1,0 +1,514 @@
+﻿#site-banner {
+    display: none;
+}
+
+
+#navigation-bar {
+    background: none;
+    border: 0px;
+}
+
+    #navigation-bar .nav a, #navigation-bar .nav a:hover, #navigation-bar .nav a:active, #navigation-bar .nav a:visited {
+        background-color: darkolivegreen;
+        opacity: 0.7;
+    }
+
+    .activeAbout {
+        background: none;
+        border-bottom: 5px solid red;
+    }
+
+#navigation-bar__mini-side-nav a {
+    position: absolute;
+    right: 0px;
+    /*transition: 0.3s;*/
+    padding: 10px;
+    width: 40px;
+    min-width: 0px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    border-radius: 5px 0 0 5px;
+}
+
+    #navigation-bar__mini-side-nav a:hover {
+        right: 0px;
+        width: 120px;
+    }
+
+        #navigation-bar__mini-side-nav a:hover .mini-side-nav--text {
+            display: inline;
+        }
+
+#navigation-bar__mini-side-nav .mini-side-nav--text {
+    display: none;
+    width: 0px;
+}
+
+#mySidenav span {
+    padding-right: 10px;
+}
+
+#mini-side-nav__home {
+    top: 250px;
+    background-color: #2196F3;
+}
+
+    #mini-side-nav__home:hover {
+        background-color: #2196F3 !important;
+    }
+
+#mini-side-nav__login {
+    top: 300px;
+    background-color: #f44336;
+}
+
+    #mini-side-nav__login:hover {
+        background-color: #f44336 !important;
+    }
+
+#parallax-bg {
+    background: url(../images/About/vits.jpg) no-repeat center center fixed;
+    display: table;
+    height: 1000px;
+    position: relative;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.parallax-bg__content {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.parallax-bg__content--text {
+    font-size: 4.5em;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+#caption-about-college {
+    padding: 50px 0;
+}
+
+#about-image-slider .container-fluid {
+    padding: 0px;
+}
+
+#leadership-info .thumbnail {
+    border: 0px;
+    box-shadow: 0 2px 10px 0 rgba(134, 141, 155, 0.2);
+    border-radius: 0px;
+}
+
+#leadership-info .caption h3:first-child {
+    margin-bottom: 0px;
+}
+
+#leadership-info .caption p:first-child {
+    margin-top: 0px;
+}
+
+#team p {
+    text-align: center;
+}
+
+#team {
+    background: #eee !important;
+    padding: 30px 0;
+}
+
+    #team .section-title {
+        text-align: center;
+        color: #007b5e;
+        margin-bottom: 50px;
+        text-transform: uppercase;
+    }
+
+    #team .card {
+        border: none;
+        background: #ffffff;
+    }
+
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+    .frontside .card,
+    .backside .card {
+        min-height: 360px;
+        padding: 25px;
+    }
+
+        .backside .card a {
+            font-size: erw 18px;
+            color: #007b5e !important;
+        }
+
+        .frontside .card .card-title,
+        .backside .card .card-title {
+            color: #007b5e !important;
+        }
+
+        .frontside .card .card-body img {
+            width: 170px;
+            height: 210px;
+            border-radius: 50%;
+        }
+
+    .backside .card-text {
+        text-align: justify;
+        font-size: small;
+    }
+
+
+/*#video-clip-section {
+    background-color: black;
+    width: 80%;
+    margin: 30px auto;
+    position: relative;
+    height: 600px;
+    display: flex;
+}
+
+#video-clip-section__text {
+    margin: 30px auto;
+    margin-left: 10%;
+    background-color: yellow;
+}
+
+#video-clip-section__intro-video {
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}*/
+
+
+
+
+.thumbnail-description {
+}
+
+
+    .thumbnail-description a {
+        color: #0254EB
+    }
+
+        .thumbnail-description a:visited {
+            color: #0254EB
+        }
+
+        .thumbnail-description a.morelink {
+            text-decoration: none;
+            outline: none;
+        }
+
+    .thumbnail-description .morecontent span {
+        display: none;
+    }
+
+
+
+
+
+
+
+/*  Class added through Javascript  */
+.navigationBarAfterScroll {
+    background: linear-gradient(to right, #aa2333 25%, #d84153 50%, #aa2333 75%) !important;
+    border-bottom: 3px solid #D4AF37 !important;
+    border-top: 0.5px solid #D4AF37 !important;
+}
+
+
+/***************************************/
+/*            Media Queries            */
+/*=======  Mobile First Method  =======*/
+/***************************************/
+
+@media only screen and (min-width : 375px)and (max-width : 767px) {
+
+    #mini-side-nav__home {
+        top: 360px;
+    }
+
+    #mini-side-nav__login {
+        top: 410px;
+    }
+}
+
+@media only screen and (min-width : 768px) {
+}
+
+
+/******************************************************************************************************/
+#about-college {
+    margin: 25px 0px;
+}
+/******************************************************************************************************/
+
+#pillCards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(125px, 125px));
+    grid-auto-rows: 125px;
+    grid-auto-flow: row dense;
+    grid-gap: 10px;
+    justify-content: center;
+    padding-left: 190px;
+    padding-right: 190px;
+    padding-bottom: 40px;
+}
+
+.card-top, .card-right, .card-bottom, .card-left {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 100%;
+    border-radius: 95.2380952381px;
+    box-shadow: 0px 3px 9px 1px rgba(0, 10, 20, 0.2);
+}
+
+.card-top {
+    flex-direction: column;
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+}
+
+.card-right {
+    flex-direction: row-reverse;
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+}
+
+.card-bottom {
+    flex-direction: column-reverse;
+    grid-column: auto / span 1;
+    grid-row: auto / span 2;
+}
+
+.card-left {
+    flex-direction: row;
+    grid-column: auto / span 2;
+    grid-row: auto / span 1;
+}
+
+.card-image {
+    display: flex;
+}
+
+.card-top .card-image, .card-bottom .card-image {
+    height: 50%;
+    width: 100%;
+}
+
+.card-left .card-image, .card-right .card-image {
+    height: 100%;
+    width: 50%;
+}
+
+.card-image img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-top img {
+    border-radius: 95.2380952381px 95.2380952381px 0 0;
+}
+
+.card-right img {
+    border-radius: 0 95.2380952381px 95.2380952381px 0;
+}
+
+.card-bottom img {
+    border-radius: 0 0 95.2380952381px 95.2380952381px;
+}
+
+.card-left img {
+    border-radius: 95.2380952381px 0 0 95.2380952381px;
+}
+.card-left:hover {
+    transform: scale(1.035, 1.035);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  }
+  .card-right:hover {
+    transform: scale(1.035, 1.035);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  }
+  .card-bottom:hover {
+    transform: scale(1.035, 1.035);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  }
+  .card-top:hover {
+    transform: scale(1.035, 1.035);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card-lef:hover img {
+    transform: translateY(-10px);
+  }
+.card-text {
+    align-self: center;
+    /*padding: 23px;*/
+}
+
+.card-top .card-text {
+    height: auto;
+    width: auto;
+    padding: 15px 10px 20px 10px;
+}
+
+.card-right .card-text {
+    height: auto;
+    width: 50%;
+    padding: 20px 10px 20px 20px;
+}
+
+.card-bottom .card-text {
+    height: auto;
+    width: auto;
+    padding: 20px 10px 15px 10px;
+}
+
+.card-left .card-text {
+    height: auto;
+    width: 50%;
+    padding: 20px 15px;
+}
+
+.card-text p {
+    margin: 0;
+    line-height: 1.35em;
+    color:darkgoldenrod;
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    .card-top {
+        flex-direction: row;
+        grid-column: auto / span 2;
+        grid-row: auto / span 1;
+    }
+
+    .card-bottom {
+        flex-direction: row-reverse;
+        grid-column: auto / span 2;
+        grid-row: auto / span 1;
+    }
+
+        .card-top .card-image, .card-bottom .card-image {
+            height: 100%;
+            width: 50%;
+        }
+
+    .card-top img {
+        border-radius: 95.2380952381px 0 0 95.2380952381px;
+    }
+
+    .card-bottom img {
+        border-radius: 0 95.2380952381px 95.2380952381px 0;
+    }
+
+    .card-top .card-text {
+        height: auto;
+        width: 50%;
+        padding-right: 36.8px;
+    }
+
+    .card-bottom .card-text {
+        height: auto;
+        width: 50%;
+        padding-left: 36.8px;
+    }
+}
+
+@media (max-width: 400px) {
+    .card-image {
+        width: 38% !important;
+    }
+
+    .card-text {
+        width: 62% !important;
+    }
+}
+
+
+/******************************************************************************************************/
+#video-clip-section {
+    margin: 15px 0px
+}
